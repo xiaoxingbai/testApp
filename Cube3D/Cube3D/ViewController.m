@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.title = @"进行回退操作";
     HRCube *cube = [HRCube cube3DWithFrame:self.view.bounds side:100.0 autoAnimate:YES];
     [self.view addSubview:cube];
 }
