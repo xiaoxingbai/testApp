@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     
-    HRCube *cube = [HRCube cube3DWithFrame:self.view.bounds side:100.0 autoAnimate:NO];
+    HRCube *cube = [HRCube cube3DWithFrame:self.view.bounds side:100.0 autoAnimate:YES];
     [self.view addSubview:cube];
 }
 
